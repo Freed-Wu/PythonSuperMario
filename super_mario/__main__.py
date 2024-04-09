@@ -14,3 +14,7 @@ def main():
                   c.TIME_OUT: load_screen.TimeOut()}
     game.setup_states(state_dict, c.MAIN_MENU)
     game.main()
+
+
+if __name__ == '__main__':
+    main()

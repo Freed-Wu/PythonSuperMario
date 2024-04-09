@@ -41,7 +41,7 @@ class Player(pg.sprite.Sprite):
 
     def load_data(self):
         player_file = str(self.player_name) + '.json'
-        file_path = os.path.join('source', 'data', 'player', player_file)
+        file_path = os.path.join(os.path.dirname(os.path.dirname(__file__)), 'data', 'player', player_file)
         f = open(file_path)
         self.player_data = json.load(f)
 

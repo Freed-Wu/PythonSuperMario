@@ -11,7 +11,10 @@ A improved supermario game based on https://github.com/justinmeister/Mario-Level
 * Python-Pygame 1.9
 
 # How To Start Game
-$ python main.py
+$ python -m super_mario
+# or
+$ pip install super-mario-game
+$ super-mario
 
 # How to Play
 * use LEFT/RIGHT/DOWN key to control player
